@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <script>
+            if(true){
+    alert('result : true');
+}
+if(true){
+    alert(1);
+}else{
+    alert(2);
+}
+if(false){
+    alert(1);
+} else if(true){
+    alert(2);
+} else {
+    alert(3);
+}
+alert(prompt('나이가 몇 살인가요?'));
+answer = prompt('꿈이 큰 나무를 네 글자로 하면?');
+if (answer == '왕꿈틀이'){
+    alert('정답이에용')
+}else{
+    alert('쯧쯧 틀렸어용')
+}
+        </script>
+    </body>
+</html>
