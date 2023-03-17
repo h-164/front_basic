@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,6 +12,37 @@
         var myfriends = ['sinchae','parkso','jungyoon','parkji'];
         alert(myfriends);
         alert(myfriends[3]);
+
+        var myfriends = ['sinchae','parkso','jungyoon','parkji'];
+        alert(myfriends[3]);
+
+        var myfriends = ['sinchae','parkso','jungyoon','parkji'];
+        alert(myfriends[2].toUpperCase());
+
+        var myfriends = ['sinchae','parkso','jungyoon','parkji'];
+        alert(myfriends.length);
+
+        var myfriends = ['sinchae','parkso','jungyoon','parkji'];
+        myfriends.push('leesi');
+        alert(myfriends);
+
+        var myfriends = ['sinchae','parkso','jungyoon','parkji','leesi'];
+        var myfriends2 = ['doraemong','jingu'];
+        myfriends.concat(myfriends2);
+        alert(myfriends);
+
+        var myfriends = ['sinchae','parkso','jungyoon','parkji','leesi'];
+        var myfriends2 = ['doraemong','jingu','minidora'];
+        myfriends.unshift(myfriends2);
+        alert(myfriends)
+
+        var myfriends = ['doraemong','jingu','sinchae','parkso','jungyoon','parkji','leesi'];
+        myfriends.splice(4,3,'minidora');
+        alert(myfriends)
+
+        var myfriends = ['doraemong','jingu','sinchae','parkso','jungyoon','parkji','leesi'];
+        alert(myfriends.splice(4,3,'minidora'));
+        alert(myfriends)
     </script>
 </body>
 </html>
