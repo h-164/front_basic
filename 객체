@@ -8,7 +8,27 @@
 </head>
 <body>
     <script>
-        var birthday = {'sinchae' : 1110, 'parkso' : 0302, 'jungyun' : 0917 }
+        var birthday = {'sinchae' : '1110', 'parkso' : '0302', 'jungyun' : '0917' }
+
+        var birthday = {};
+        birthday['sinchae'] = '1110';
+        birthday['parkso'] = '0302';
+        birthday['jungyun'] = '0917';
+
+        var birthday = {'sinchae' : '1110', 'parkso' : '0302', 'jungyun' : '0917' };
+        for (key in birthday) {
+            document.write("이름: "+ key + " 생일: " + birthday[key] + "<br />");
+        }
+
+        var myfriends = {
+            'birthday' : {'sinchae':'1110', 'parkso':'0302','jungyun':'0917'},
+            'show' : function(){
+                for (var name in this.birthday){
+                    console.log('이름: ',name,' 생일: ',this.birthday[name]);
+                }
+            }
+        }
+        myfriends.show()
     </script>
 </body>
 </html>
